@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.App-main {
+  padding: 20px;
+  max-width: 800px; /* Batasi lebar konten */
+  margin: 0 auto; /* Centering */
+}
+
+ul {
+  list-style-type: none; /* Menghilangkan bullet */
+  padding: 0; /* Menghilangkan padding */
+}
+
+li {
+  background-color: #f0f0f0; /* Warna latar belakang item */
+  margin: 10px 0; /* Jarak antar item */
+  padding: 10px; /* Padding di dalam item */
+  border-radius: 5px; /* Membuat sudut melengkung */
+}
+
+button {
+  background-color: #ff4d4d; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  border: none; /* Menghilangkan border */
+  padding: 5px 10px; /* Padding tombol */
+  border-radius: 5px; /* Membuat sudut melengkung tombol */
+  cursor: pointer; /* Mengubah kursor saat hover */
+}
+
+button:hover {
+  background-color: #ff1a1a; /* Warna saat hover */
+}

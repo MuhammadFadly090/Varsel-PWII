@@ -1,0 +1,38 @@
+.user-list {
+    padding: 20px;
+  }
+  
+  .user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .update-user {
+    margin-top: 20px;
+  }
+  
+  .update-user input {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  .update-user button {
+    background-color: #4CAF50; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    border: none; /* Menghilangkan border */
+    padding: 5px 10px; /* Padding tombol */
+    border-radius: 5px; /* Membuat sudut melengkung tombol */
+    cursor: pointer; /* Mengubah kursor saat hover */
+  }
+  
+  .update-user button:hover {
+    background-color: #45a049; /* Warna saat hover */
+  }
+  
